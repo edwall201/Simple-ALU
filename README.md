@@ -3,6 +3,8 @@ I using two 16 bits CLA to implement this project. And in the 16 bits CLA module
 By computing propagate and generate for each bit using primitive gates. Then carry for each bit. Final sum for each bit is propagate ^ carry and carry out is the last cary in that chain. 
 
 Then combine two 16 bits CLA to a 32-bits CLA. First CLA computes the lower 16 bits and the second one computes the upper 16 bits.
+<img width="1587" height="617" alt="image" src="https://github.com/user-attachments/assets/6401f831-77f3-42f4-a2af-2a1946c16dae" />
+
 
 Since it cannot using == !=....., I must use logic gates. So I build some signals to help.
 

@@ -1,4 +1,4 @@
-## Name: Edward (YuKai) Huang, NetId: yh475
+## Design and simulate an ALU using Verilog.
 I using two 16 bits CLA to implement this project. And in the 16 bits CLA module, input 16 bits a and b plus carry-in cin, it would have a 16 bits carry out.
 By computing propagate and generate for each bit using primitive gates. Then carry for each bit. Final sum for each bit is propagate ^ carry and carry out is the last cary in that chain. 
 
